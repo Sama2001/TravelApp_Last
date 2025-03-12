@@ -2,6 +2,7 @@
 
 TravelApp is a web application that allows users to enter a destination and a date. The app then fetches and displays the weather forecast for the destination along with a photo of the location using external APIs. 
 ---
+## Node.JS version: v20.15.1
 
 ## Features
 - **Destination Search**: Users can enter a destination and a date.
