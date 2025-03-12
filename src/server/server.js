@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Serve static files from the dist folder
-app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.static(path.join(__dirname, "..",'/dist')));
 
 // Geonames API: Get latitude and longitude
 app.get('/geonames', async (req, res) => {
@@ -67,7 +67,7 @@ app.get('/image', async (req, res) => {
 
 // Handle all other routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../dist/index.html'));
+  res.sendFile(path.join(__dirname, '..','dist', 'index.html'));
 });
 
 const PORT = process.env.PORT || 3001;
