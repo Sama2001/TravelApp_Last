@@ -40,16 +40,10 @@ TRAVELAPP/
 
 ## Installation
 Follow these steps to set up the project locally:
-
 ### 1. Clone the Repository 
 ### 2. Install Dependencies : npm install
-
-## Development Mode : npm run dev
-
 ## Build the project: npm run build
-
 ## Start the production server: npm start
-
 ## Testing: The project includes a test suite using Jest and Supertest : npm test
 
 ## Environment Variables 
